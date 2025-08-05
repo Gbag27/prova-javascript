@@ -16,7 +16,7 @@ function remover() {
     let nomeRemovido = prompt("Qual nome você deseja remover?");
     let index = convidados.indexOf(nomeRemovido);
 
-    if (index !== -1) { //lembrar que o indexOf retorna -1 caso não ache o nome no array
+    if (index !== -1) { 
         convidados.splice(index, 1);
         alert("Convidado " + nomeRemovido + " removido.");
     } else {
