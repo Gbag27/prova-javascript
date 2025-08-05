@@ -5,7 +5,7 @@ function cadastrar() {
     let nome = document.getElementById("convidado").value.trim();
 
     if (convidados.length >= limite) {
-        alert("o limite de convidados foi atingido")
+        alert("o limite de convidados foi atingido");
     } else {
         convidados.push(nome);
         document.getElementById("convidado").value = "";
